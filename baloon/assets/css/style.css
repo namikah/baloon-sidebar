@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("/assets/img/1361.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 80px auto;
+}
+
+.d-flex {
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+}
+
+.bg-black {
+  background-color: black;
+  -webkit-box-shadow: 0px 0px 5px 5px #918e8e;
+          box-shadow: 0px 0px 5px 5px #918e8e;
+}
+
+.bg-red {
+  background-color: red;
+  -webkit-box-shadow: 0px 0px 5px 5px #f79696;
+          box-shadow: 0px 0px 5px 5px #f79696;
+}
+
+.bg-yellow {
+  background-color: yellow;
+  -webkit-box-shadow: 0px 0px 5px 5px #fac26d;
+          box-shadow: 0px 0px 5px 5px #fac26d;
+}
+
+.bg-green {
+  background-color: green;
+  -webkit-box-shadow: 0px 0px 5px 5px #9ef39e;
+          box-shadow: 0px 0px 5px 5px #9ef39e;
+}
+
+.baloon {
+  width: 100px;
+  height: 120px;
+  border-radius: 100%;
+  position: relative;
+  border: 1px solid #cab6b6;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.baloon::after {
+  content: '';
+  border: 1px solid #cab6b6;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  height: 50px;
+}
+
+.color-box {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.color-box::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  -webkit-box-shadow: 0px 0px 20px 20px #f8f5f5;
+          box-shadow: 0px 0px 20px 20px #f8f5f5;
+  opacity: .5;
+}
+
+.baloon-effect {
+  height: 115px;
+}
+/*# sourceMappingURL=style.css.map */
