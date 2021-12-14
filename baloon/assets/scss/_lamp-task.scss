@@ -6,22 +6,22 @@
   gap: 50px;
 }
 
-.bg-black {
+.box-1 {
   background-color: black;
   box-shadow: 0px 0px 5px 5px rgb(145, 142, 142);
 }
 
-.bg-red {
+.box-2 {
   background-color: red;
   box-shadow: 0px 0px 5px 5px rgb(247, 150, 150);
 }
 
-.bg-yellow {
+.box-3 {
   background-color: yellow;
   box-shadow: 0px 0px 5px 5px rgb(250, 194, 109);
 }
 
-.bg-green {
+.box-4 {
   background-color: green;
   box-shadow: 0px 0px 5px 5px rgb(158, 243, 158);
 }
@@ -62,8 +62,4 @@
     box-shadow: 0px 0px 20px 20px rgb(248, 245, 245);
     opacity: .5;
   }
-}
-
-.baloon-effect {
-  height: 115px;
 }
