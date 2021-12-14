@@ -1,0 +1,63 @@
+.d-flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: flex-end;
+	gap: 50px;
+}
+.btn {
+	margin-top: 80px;
+	width: 60px;
+	height: 50px;
+	background-color: rgb(164, 247, 157);
+	color: rgb(48, 2, 155);
+	font-weight: 900;
+	transition: 1s;
+	border: 0px solid white;
+	letter-spacing: 3px;
+	font-size: 16px;
+	cursor: pointer;
+	&:hover {
+		background-color: rgb(162, 171, 255);
+	}
+}
+
+.side-bar {
+	width: 0px;
+	height: auto;
+	background-color: rgb(164, 247, 157);
+	transition: 1s;
+	opacity: 0;
+	overflow: hidden;
+}
+.menu {
+	color: rgb(48, 2, 155);
+	padding: 15px;
+	letter-spacing: 3px;
+	text-align: center;
+	width: 200px;
+	cursor: pointer;
+	transition: .1s;
+	&:hover {
+		background-color: rgb(245, 232, 43);
+		color: rgb(159, 5, 219);
+		font-weight: 900;
+	}
+}
+
+.btn-clicked {
+	width: 200px;
+	border: 1px solid rgb(248, 159, 159);
+	cursor: default;
+	&:hover {
+		background-color: rgb(245, 232, 43);
+		color: rgb(159, 5, 219);
+	}
+}
+
+.w-200 {
+	width: 200px;
+	height: auto;
+	opacity: 1;
+	border: 1px solid rgb(248, 159, 159);
+}
